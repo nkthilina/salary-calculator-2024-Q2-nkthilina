@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "a title",
+      "amount": "500"
+    },
+    {
+      "id": "2",
+      "name": "another title",
+      "amount": "1500"
+    },
+    {
+      "id": "3",
+      "name": "hiru",
+      "amount": "100"
+    }
+  ]
+}

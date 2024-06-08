@@ -11,7 +11,7 @@ function DeductionModal({ isVisible, onClose }) {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center" id="wrapper" onClick={handleClose}>
       <div className="bg-white p-4 rounded shadow-md w-96">
         <div className="flex justify-between">
-          <h3 className="text-lg font-semibold mb-4">Add New Deductions</h3>
+          <h3 className="text-lg font-semibold mb-4">Add New Deduction</h3>
           <button className="text-lg mb-4" onClick={() => onClose()}>
             X
           </button>

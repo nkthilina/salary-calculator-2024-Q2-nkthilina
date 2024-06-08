@@ -1,6 +1,6 @@
 import React from "react";
 
-function SalarySummary() {
+function SalarySummary({ basicSalary }) {
   return (
     <div className="w-4/12">
       <div className="   p-8 bg-white  rounded-lg border">
@@ -12,7 +12,7 @@ function SalarySummary() {
           </div>
           <div className="flex justify-between mt-2">
             <span>Basic Salary</span>
-            <span>500</span>
+            <span>{basicSalary}</span>
           </div>
           <div className="flex justify-between mt-2">
             <span>Gross Earning</span>
